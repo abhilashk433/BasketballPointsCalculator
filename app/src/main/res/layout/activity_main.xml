@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="midas.com.basketballpointscalculator.MainActivity">
+    <TextView
+        android:id="@+id/team1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team 1"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/score1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/point3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+3 Points"
+        android:onClick="point3"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/point2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+2 Points"
+        android:onClick="point2"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/point1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+1 Points"
+        android:onClick="point1"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="reset"
+        android:text="Reset" />
+
+</LinearLayout>
